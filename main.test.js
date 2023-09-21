@@ -10,20 +10,23 @@ let name = 'Jen';
 let greeting = 'HEY';
 
 function multiply(num) {
-  x = x * num;
+  x *= num;
 }
 
 function modYBy(num) {
-  y = y % num;
+  y %= num;
 } 
 
 function opposite(num) {
   z = -num
 }
 
-function makeFullName(name, lName){
-return name + ' ' + lName;
+function makeFullName(str){
+name += ' ' + str;
+} 
 
+function yellAt(str) {
+  greeting += ', ' + str + '!'
 }
 
 
